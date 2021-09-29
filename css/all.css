@@ -1,0 +1,113 @@
+body {
+    background: #000;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    /*border: 1px solid #fff;*/
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: normal;
+    padding: 50px 0 20px 0;
+    background: #517783;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.9rem;
+    background: #517783;
+    padding: 30px;
+}
+
+h2 span {
+    background: #fff;
+    color: #517783;
+    display: inline-block;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+}
+
+ul {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #ec8b68;
+    color: #fff;
+    border-top: 1px solid #fe9772;
+    border-bottom: 1px solid #9f593f;
+    font-size: 24px;
+    letter-spacing: .05em;
+    list-style-type: none;
+    text-shadow: 2px 2px 1px #9f593f;
+    text-align: left;
+    height: 50px;
+    padding-left: 1em;
+    padding-top: 10px;
+}
+
+
+
+
+
+.complete {
+    background-color: #999;
+    color: #fff;
+    background-image: url('../images/icon-trash.png');
+    background-position: right, center;
+    background-repeat: no-repeat;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #b0b0b0;
+    text-shadow: 2px 2px 1px #333;
+}
+
+#newItemButton {
+    background: #517783;
+    text-align: right;
+}
+
+
+#newItemButton button, #add{
+    background-color: #cb6868;
+    color: #f3dad1;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin:10px;
+}
+
+#newItemButton button:active,#add:active{
+	background: #de6e61;
+}
+
+#newItemForm{
+	background: #517783;
+    text-align: right;
+}
+#itemDescription{
+  color: #222;
+  font-size: 24px;
+  width: 80%;
+  padding: 4px 6px;
+  border: 1px solid #999;
+  border-radius: 8px;
+}
+
