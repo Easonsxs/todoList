@@ -1,6 +1,6 @@
 # todoList
 
-網址 https://easonsxs.github.io/todoList/
+網址 https://easonsxs.github.io/todoList/ <br>
 
 (1) 使用jQuery和ES6語法建立 
 (2) 資料儲存在localStorage 每次打開會發現上次輸入的list（除非刪除）
